@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-img{
+    padding-top: 100px;
+    width: 330px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 510px;
+    align-items: center;
+    background-color: rgb(252, 220, 225);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(223, 127, 143);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.flower-title{
+    text-align: center;
+    padding-top:50px;
+    font-size: 30px;
+}
+.flower-description{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.img-size-box3{
+    height: 430px;
+}
+.flower-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: -20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: -20px;
+    
+}
+.box{
+    align-items: center;
+    padding: 20px;
+    background-color: plum;
+    width: 350px;
+    height: 410px;
+    border-radius: 250px 250px 0px 0px;
+}
+.box2{
+    background-color: aqua;
+    width: 400px;
+}
+.box3{
+    background-color: aquamarine;
+    width: 300px;
+
+}
+.underline{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    
+   
+}
+.fount{
+    display: flex;
+    font-size: 20px;
+    font-weight: 2px;
+    
+   
+}
+.about-container{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: rgb(247, 241, 243);
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center; 
+    padding-bottom: 100px; 
+    
+}
+.top-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+       
+}
+.instagram-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.img-1{
+    width: 250px;
+    height: 280px;
+    
+}
+.last-container{
+    padding: 20px;
+    margin: 100px auto;
+   background-image: url(./Rectangle\ 9.png);
+    height: 400px;
+    width: 1300px;
+    font-family: sans-serif;
+}
+.text{ 
+    position: absolute;
+    left: 30%;
+    /*right: 20%;*/
+    top: 370%;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    
+
+}
+input[type="text"]{
+    background: #fff;
+    width: 560px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 25px;
+    border-radius: 5px 5px 5px 5px;
+}
+input[type="submit"]{
+    position: absolute;
+    background: rgb(243, 102, 125);
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.last-text{
+    text-align: center;
+    padding-top:50px;
+    font-size: 30px;
+}
+.last-description{
+    font-size: 17px;
+    margin-top: 15px;
+    /*margin-bottom: 15px;*/
+    text-align: center;
+    color: grey;
+}
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+
+    width: 75%;
+    height: 60vh;
+    align-items: center;
+    margin: 0 auto ;
+    text-align: center;
+}
+.footer-text{
+    text-align: center;
+    padding-top:150px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 25px;
+    color: pink;
+
+}
+.footer-description{
+    font-size: 17px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.footer-description1{
+    font-size: 15px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    color: grey;
+}
